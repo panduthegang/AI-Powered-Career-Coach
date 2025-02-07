@@ -62,6 +62,21 @@ npm run dev
 ```
 
 ## 🔐 Environment Setup
+### Make sure to create a `.env` file with following variables -
+
+```
+DATABASE_URL=
+
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/onboarding
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/onboarding
+
+GEMINI_API_KEY=
+```
 Rename `.env.example` to `.env` and configure:
 - Database credentials
 - Clerk authentication keys
