@@ -48,7 +48,7 @@ Transform career development through intelligent, personalized AI guidance.
 
 ```bash
 # Clone Repository
-git clone https://github.com/yourusername/sensai.git
+git clone https://github.com/panduthegang/AI-Powered-Career-Coach.git
 
 # Install Dependencies
 npm install
@@ -66,15 +66,3 @@ Rename `.env.example` to `.env` and configure:
 - Database credentials
 - Clerk authentication keys
 - Gemini AI integration
-
-## 🤝 Contribution Guidelines
-1. Fork repository
-2. Create feature branch
-3. Commit changes
-4. Open pull request
-
-## 📄 License
-MIT License
-
-## 📞 Connect
-[Your Professional Links]
